@@ -1,0 +1,19 @@
+[INFO  - 2020-04-27T04:38:43.659Z] GhostDriver - Main - running on port 51225
+[INFO  - 2020-04-27T04:38:44.501Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2020-04-27T04:38:44.501Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.customHeaders:  - {}
+[INFO  - 2020-04-27T04:38:44.501Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"}
+[INFO  - 2020-04-27T04:38:44.501Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fa301100-8840-11ea-a68b-bff01fb8826a
+[ERROR - 2020-04-27T04:38:47.702Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.onError - msg: ReferenceError: Can't find variable: adobeAnalytics
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-27T04:38:47.703Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.onError - stack:
+  global code (https://investor.vanguard.com/static/global/components/webTracking/adobeSiteCatalyst/1.2.7/adobeSCInit.min.js:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-27T04:38:47.754Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.onError - msg: ReferenceError: Can't find variable: waitForAdobe
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-27T04:38:47.754Z] Session [fa301100-8840-11ea-a68b-bff01fb8826a] - page.onError - stack:
+  (anonymous function) (https://investor.vanguard.com/__ssobj/static/watts2.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
